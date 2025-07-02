@@ -12,3 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: 'Balthis';
+  src: url('./assets/Balthis-pixel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

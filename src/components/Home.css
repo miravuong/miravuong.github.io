@@ -1,0 +1,38 @@
+.hacker-title {
+    font-family: 'Balthis';
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    color: white;
+}
+
+.hacker-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-top: -0.5rem;
+    /* move it up slightly */
+}
+
+.background-flower {
+    position: absolute;
+    width: 600px;
+    opacity: 0.5;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.content-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.page-container {
+    height: calc(100vh - 32vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
