@@ -17,7 +17,6 @@
 
 .nav-bar a {
   text-decoration: none;
-  color: white;
   font-size: 1.2rem;
   transition: color 0.2s ease;
 }
@@ -30,7 +29,7 @@
 .binary-toggle {
   background: none;
   border: none;
-  color: white;
+  color: inherit;
   cursor: pointer;
   transition: color 0.2s ease;
   padding: 0.25rem;
@@ -53,4 +52,12 @@
   z-index: -2;
   pointer-events: none;
   transition: opacity 0.8s ease-in-out;
+}
+
+.home-light a {
+  color: #111;
+}
+
+.home-dark a {
+  color: white;
 }
