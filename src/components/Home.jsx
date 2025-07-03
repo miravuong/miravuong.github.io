@@ -13,6 +13,17 @@ export default function Home() {
                 // Hello! I'm currently a CS and Ling student at UCLA. Looking
                     to explore cybersecurity and software development.
                 </p>
+                <div className="social-links">
+                    <a href="https://linkedin.com/in/mirabel-vuong-a36473364" target="_blank" rel="noopener noreferrer">
+                        ᯓ★linkedin
+                    </a>
+                    <a href="https://github.com/miravuong" target="_blank" rel="noopener noreferrer">
+                        ᯓ★github
+                    </a>
+                    <a href="mailto:vuongmirabel@gmail.com">
+                        ᯓ★email
+                    </a>
+                </div>
             </div>
         </div>
 

@@ -12,7 +12,29 @@
     max-width: 600px;
     line-height: 1.6;
     margin-top: -0.5rem;
-    /* move it up slightly */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .background-flower {
@@ -31,7 +53,7 @@
 }
 
 .page-container {
-    height: calc(100vh - 32vh);
+    height: calc(100vh - 30vh);
     display: flex;
     justify-content: center;
     align-items: center;
