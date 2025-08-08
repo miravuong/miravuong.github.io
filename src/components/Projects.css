@@ -5,3 +5,46 @@
 .projects-light {
     color: #111;
 }
+
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    text-align: left;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-title:hover {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.project-title:visited {
+    color: currentColor;
+}
+
+.project-title::before {
+    content: "☆";
+    margin-right: 1rem;
+}
+
+.project-techstack {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.project-description {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+}

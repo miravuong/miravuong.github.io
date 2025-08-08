@@ -18,13 +18,17 @@ export default function Home() {
                     </p>
                     <div className="social-links">
                         <a href="https://linkedin.com/in/mirabel-vuong-a36473364" target="_blank" rel="noopener noreferrer">
-                            ᯓ★linkedin
+                            ᯓ★ linkedin
                         </a>
                         <a href="https://github.com/miravuong" target="_blank" rel="noopener noreferrer">
-                            ᯓ★github
+                            ᯓ★ github
                         </a>
-                        <a href="mailto:vuongmirabel@gmail.com">
-                            ᯓ★email
+                        <a
+                            href="public/Resume_Mirabel_copy.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            ᯓ★ resume
                         </a>
                     </div>
                 </div>
