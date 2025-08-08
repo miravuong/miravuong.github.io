@@ -30,7 +30,7 @@
 }
 
 .project-title:visited {
-    color: currentColor;
+    color: inherit;
 }
 
 .project-title::before {
