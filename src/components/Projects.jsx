@@ -36,7 +36,7 @@ const projects = [
     {
         title: 'COM SCI 35L Recipe App',
         description: 'Web application for users to upload and share recipes.',
-        url: 'https://github.com/hungrychen/recipe-app',
+        url: 'https://youtu.be/oNB__gjI_bA?si=JY6Fze0TLZAnnI7m',
         techstack: 'React, Node.js, Express, MongoDB'
     }
 
