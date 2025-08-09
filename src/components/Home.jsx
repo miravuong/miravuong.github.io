@@ -24,7 +24,7 @@ export default function Home() {
                             ᯓ★ github
                         </a>
                         <a
-                            href="/Resume_Mirabel_copy.pdf"
+                            href="/Resume_Mirabel_new.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
