@@ -7,8 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mirabel Vuong</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
-
-  <script type="module" crossorigin src="/assets/index-jbafvFua.js"></script>
+  <script>
+    const path = window.location.pathname;
+    window.location.href = `/index.html?redirect=${encodeURIComponent(path)}`;
+  </script>
+  <script type="module" crossorigin src="/assets/index-DzzyJ5Gn.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DhAy-ePz.css">
 </head>
 
